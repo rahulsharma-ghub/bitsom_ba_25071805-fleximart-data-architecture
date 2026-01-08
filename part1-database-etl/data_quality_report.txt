@@ -1,0 +1,35 @@
+Assignment 2 - ETL Report
+Rahul Sharma
+bitsom_ba_25071805
+rahulshar208@gmail.com
+
+
+Part 1: Database Design and ETL Pipeline (35 Marks)
+
+Task 1.1: ETL Pipeline Implementation (15 marks) ETL Report
+
+Final Numbers (From my ETL Run)
+
+customers_raw.csv
+Records processed: 26
+Duplicates removed: 5
+Missing values handled (emails dropped): 6
+Records loaded successfully: 20
+
+products_raw.csv
+Records processed: 20
+Duplicates removed: 0
+Missing values handled:
+Missing prices dropped: 3
+Missing stock filled: 1
+Records loaded successfully: 17
+
+sales_raw.csv
+Records processed: 41
+Duplicates removed: 1
+Missing values handled:
+Missing customer/product IDs dropped: 5
+Missing/invalid dates dropped: 4
+Records loaded successfully:
+Orders loaded: 26
+Order items loaded: 32
